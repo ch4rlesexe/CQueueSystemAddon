@@ -1,0 +1,6 @@
+messages:
+  only_players: "&cOnly players can use this."
+  usage: "&eUsage: /queueaddon <join|leave> [queueName]"
+  join_usage: "&eUsage: /queueaddon join <queueName>"
+  unknown_subcommand: "&cUnknown sub-command. Use join or leave."
+  forwarded: "&aRequested proxy to {action}{queue}"

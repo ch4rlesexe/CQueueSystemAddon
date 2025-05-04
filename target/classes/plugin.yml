@@ -1,0 +1,19 @@
+name: CQueueSystemAddon
+version: '1.0'
+main: org.ch4rlesexe.cqueuesystemaddon.CQueueSystemAddon
+
+commands:
+  queueaddon:
+    description: "Bridge to proxy queue commands"
+    usage: /<command> <join|leave> [queueName]
+    permission: queueaddon.use
+
+permissions:
+  queueaddon.use:
+    description: Allows using the /queueaddon bridge command
+    default: true
+
+# Custom channel for forwarding queue actions to Bungee
+channels:
+  outgoing:
+    - CQueue
